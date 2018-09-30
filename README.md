@@ -1,6 +1,6 @@
 # SubReddit
 
-#Steps
+Steps
 1. git clone https://github.com/NitinSatpal/subReddit.git
 2. npm install
 3. node checkSubReddit.js worldnews true
