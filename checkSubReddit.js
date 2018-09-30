@@ -5,12 +5,13 @@ fetchSubreddit(args[0])
   .then(function(response) {
   	if(response[0].urls.length > 0) {
   		if(isTrueSet) {
+  			console.log('subreddit name is already been taken and following are the urls of the same');
   			console.log(pretty(response));
   		} else {
-  			console.log('subreddit name is available');
+  			console.log('subreddit name is already been taken');
   		}
   	}else{
-  		console.log('subreddit name is not available');
+  		console.log('subreddit name is available');
   	}
   })
   .catch(function(err){
